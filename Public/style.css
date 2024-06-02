@@ -118,3 +118,32 @@ nav {
 .trusted-sec-right img {
     width: 100%;
 }
+.services-sec {
+    margin-top: 7%;
+}
+.services-sec-header{
+    font-family: "Poppins", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+}
+.card{
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-image: radial-gradient(rgba(33, 127, 239, 0.07),
+    rgba(33, 127, 239, 0.09));
+}
+.card:hover{
+    background-image: radial-gradient(rgba(33, 127, 239, 0.17),
+    rgba(33, 127, 239, 0.7));
+        box-shadow: rgba(33, 127, 239, 0.48) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card-line-first{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.card-line-second{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
