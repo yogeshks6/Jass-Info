@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+/* navbar section start */
 nav {
     background-color: rgba(231, 241, 253, 1);
 }
@@ -41,6 +41,9 @@ nav {
     text-decoration: underline;
 }
 
+/* navbar section end */
+
+/* hero section start */
 .hero-sec {
     background: url(./assets/design.png);
     width: 100%;
@@ -93,6 +96,9 @@ nav {
     height: 100%;
 }
 
+/* hero section end */
+
+/* Trusted section start  */
 .trusted-sec {
     margin-top: 8%;
 }
@@ -118,6 +124,10 @@ nav {
     width: 100%;
 }
 
+/* Trusted section end  */
+
+
+/* services section start */
 .services-sec {
     margin-top: 7%;
 }
@@ -154,6 +164,9 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
+/* services section end */
+
+/* experience section start */
 .experience-sec {
     margin-top: 6%;
     background-color: rgba(33, 127, 239, 0.07);
@@ -186,3 +199,5 @@ nav {
     font-family: "Poppins", sans-serif;
     color: rgba(106, 106, 106, 1);
 }
+
+/* experience section end */
