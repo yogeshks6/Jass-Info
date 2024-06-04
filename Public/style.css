@@ -218,31 +218,6 @@ nav {
     padding-bottom: 10%;
 }
 
-.Work-section-box-line-first {
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.Work-section-box-second-first {
-    font-size: 18px;
-    width: 90%;
-    color: rgba(106, 106, 106, 1);
-}
-
-.work-section-head-one {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.work-section-head-two {
-    font-size: 46px;
-    font-weight: 700;
-}
-
-.work-sec-carousel {
-    text-align: center;
-}
-
 .carousel-indicators {
     bottom: -25px;
 }
@@ -250,7 +225,6 @@ nav {
 .carousel-indicators [data-bs-target] {
     width: 8px;
     height: 7px;
-
 }
 
 /* Work section end */
