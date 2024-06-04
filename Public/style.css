@@ -327,4 +327,80 @@ nav {
     font-weight: 500;
 }
 
+.questions-sec-right-img img {
+    width: 327px;
+}
+
 /* Questions section end */
+
+
+/* contact section start */
+.contact-section {
+    background-color: rgba(33, 127, 239, 0.07);
+    padding-top: 5%;
+}
+
+.contact-section-head-one {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.contact-section-head-two {
+    font-size: 18px;
+    color: rgba(106, 106, 106, 1);
+}
+
+.contact-section-left-box-one {
+    /* width: 70%; */
+    margin-top: 10%;
+    font-size: 22px;
+    font-weight: 500;
+    height: 78px;
+    background-color: rgba(202, 228, 201, 1);
+}
+
+.contact-section-left-box-one img {
+    height: 78px;
+    border-radius: 50px;
+    background-color: rgba(180, 244, 177, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25) inset;
+    padding: 10px;
+}
+
+.contact-section-left-box-two {
+    /* width: 70%; */
+    font-size: 22px;
+    font-weight: 500;
+    height: 78px;
+    background-color: rgba(255, 0, 0, 0.14);
+}
+
+.contact-section-left-box-two img {
+    height: 78px;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.15);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25) inset;
+    padding: 10px;
+}
+
+.contact-section-left-box-three {
+    /* width: 70%; */
+    font-size: 22px;
+    font-weight: 500;
+    height: 78px;
+    background-color: rgba(3, 155, 229, 0.14);
+}
+
+.contact-section-left-box-three img {
+    height: 78px;
+    border-radius: 50px;
+    background-color: rgba(3, 155, 229, 0.14);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25) inset;
+    padding: 10px;
+}
+
+.contact-sec-right-img img {
+    width: 400px;
+}
+
+/* contact section end */
