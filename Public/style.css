@@ -129,46 +129,12 @@ nav {
     height: 89px;
 }
 
-.card-line-first {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.card-line-second {
-    font-size: 18px;
-}
-
 /* services section end */
 
 /* experience section start */
 .experience-sec {
     margin-top: 6%;
     background-color: rgba(33, 127, 239, 0.07);
-}
-
-.experience-sec-img {
-    width: 100%;
-    height: 100%;
-}
-
-.experience-sec-first-line {
-    font-size: 22px;
-}
-
-.experience-sec-second-line {
-    font-size: 38px;
-    line-height: 52.67px;
-}
-
-
-.experience-sec-third-line {
-    font-size: 18px;
-    color: rgba(106, 106, 106, 1);
-}
-
-.experience-sec-fourth-line {
-    font-size: 18px;
-    color: rgba(106, 106, 106, 1);
 }
 
 /* experience section end */
