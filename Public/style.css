@@ -212,29 +212,11 @@ nav {
     padding-bottom: 7%;
 }
 
-.questions-section-head-one {
-    font-size: 46px;
-    font-weight: 700;
-
-}
-
 .questions-accordion {
     margin-top: 14%;
 }
 
-.questions-section-head-two {
-    font-size: 18px;
-    color: rgba(106, 106, 106, 1);
-}
 
-.accordion-button {
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.questions-sec-right-img img {
-    width: 327px;
-}
 
 /* Questions section end */
 
