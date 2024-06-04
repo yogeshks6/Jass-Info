@@ -4,14 +4,33 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 /* navbar section start */
 nav {
     background-color: rgba(231, 241, 253, 1);
 }
 
 .nav-logo {
-    width: 244px;
-    height: 46px;
+    width: 214px;
+    height: 40px;
 }
 
 .nav-btn {
@@ -60,9 +79,9 @@ nav {
 }
 
 .hero-sec-second-line {
-    font-size: 54px;
+    font-size: 42px;
     font-weight: 700;
-    line-height: 69.93px;
+    line-height: 56.93px;
     color: rgba(36, 47, 101, 1);
 }
 
@@ -176,9 +195,10 @@ nav {
 }
 
 .experience-sec-second-line {
-    font-size: 46px;
-    line-height: 55.67px;
+    font-size: 38px;
+    line-height: 52.67px;
 }
+
 
 .experience-sec-third-line {
     font-size: 18px;
@@ -400,7 +420,19 @@ nav {
 }
 
 .contact-sec-right-img img {
-    width: 400px;
+    width: 306px;
 }
 
 /* contact section end */
+
+
+/* delivering section start */
+.delivering-sec {
+    background: url(./assets/delivering-sec-img.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+/* delivering section end */
