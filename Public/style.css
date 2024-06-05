@@ -10,12 +10,13 @@ body {
 }
 
 /* navbar section start */
-header{
+header {
     z-index: 111;
 }
+
 nav {
     background-color: rgba(231, 241, 253, 1);
- 
+
 }
 
 .nav-logo {
@@ -276,6 +277,7 @@ a.temp-btn {
 .contact-sec-right-img img {
     width: 100%;
 }
+
 /* contact section end */
 
 
@@ -383,6 +385,7 @@ footer {
         width: 164px;
         height: 33px;
     }
+
     .temp-btn {
         margin: 0px auto;
 
@@ -427,7 +430,7 @@ footer {
     .testimonial-section {
         padding-bottom: 30%;
     }
-    
+
 
     .carousel-control-prev {
         left: -11px;
