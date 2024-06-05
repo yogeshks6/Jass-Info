@@ -10,12 +10,16 @@ body {
 }
 
 /* navbar section start */
+header{
+    z-index: 111;
+}
 nav {
     background-color: rgba(231, 241, 253, 1);
+ 
 }
 
 .nav-logo {
-    width: 214px;
+    width: 200px;
     height: 40px;
 }
 
@@ -128,25 +132,23 @@ a.temp-btn {
 
 /* Work section start */
 
-
-.carousel-indicators {
+.work-sec-indicators {
     bottom: -25px;
 }
 
-.carousel-indicators [data-bs-target] {
+
+.work-sec-indicators [data-bs-target] {
     width: 8px;
     height: 7px;
 }
 
 /* Work section end */
 
-
 /* portfolio section start */
 .portfolio-section {
     background-color: rgba(33, 127, 239, 0.07);
 
 }
-
 
 .portfolio-card-img {
     width: 100%;
@@ -181,7 +183,6 @@ a.temp-btn {
 
 }
 
-
 .portfolio-section-cards-btn {
     border: 1px solid rgba(0, 0, 0, 1);
     width: 150px;
@@ -189,14 +190,48 @@ a.temp-btn {
 }
 
 /* portfolio section end */
+/* testimonial section start */
+.testimonial-card {
+    width: 51.2%;
+}
+
+.testimonial-section {
+    padding-bottom: 10%;
+}
+
+.testimonial-section {
+    background-color: rgba(36, 47, 101, 1);
+}
+
+.testimonial-img-active {
+    margin-bottom: -8rem;
+
+}
+
+.testimonial-img-active [data-bs-target] {
+    width: 56px;
+    height: 94px;
+}
+
+.testimonial-img-active .active {
+    width: 10%;
+}
+
+.carousel-control-prev {
+    left: 134px;
+}
+
+.carousel-control-next {
+    right: 134px;
+}
+
+/* testimonial section end */
+
+
 /* Questions section start */
-
-
 .questions-accordion {
     margin-top: 14%;
 }
-
-
 
 /* Questions section end */
 
@@ -241,7 +276,6 @@ a.temp-btn {
 .contact-sec-right-img img {
     width: 100%;
 }
-
 /* contact section end */
 
 
@@ -249,18 +283,17 @@ a.temp-btn {
 .news-letter {
     background: url(./assets/delivering-sec-img.svg);
     background-repeat: no-repeat;
-    padding: 210px 0px;
+    padding: 151px 0px;
     background-size: contain;
 }
 
 .news-letter a {
     color: #fff;
-     padding-top: 14px;
+    padding-top: 14px;
 }
 
 .delivering-sec {
     width: 100%;
-
 }
 
 /* delivering section end */
@@ -317,7 +350,28 @@ footer {
         height: 46px;
         font-size: 14px;
     }
+
+    .testimonial-img {
+        width: 50px;
+    }
+
+    .testimonial-card {
+        width: 300px;
+    }
+
+    .testimonial-card h4 {
+        font-size: 24px;
+    }
+
+    .testimonial-card p {
+        font-size: 12px;
+    }
+
+    .testimonial-section {
+        padding-bottom: 30%;
+    }
 }
+
 
 /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -325,6 +379,10 @@ footer {
     */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .nav-logo {
+        width: 164px;
+        height: 33px;
+    }
     .temp-btn {
         margin: 0px auto;
 
@@ -344,5 +402,42 @@ footer {
         width: 163px;
         height: 46px;
         font-size: 14px;
+    }
+
+
+
+    .testimonial-card {
+        width: 240px;
+    }
+
+    .testimonial-card h4 {
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .testimonial-card p {
+        font-size: 12px;
+    }
+
+    .testimonial-img-active [data-bs-target] {
+        width: 32px;
+        height: 120px;
+    }
+
+    .testimonial-section {
+        padding-bottom: 30%;
+    }
+    
+
+    .carousel-control-prev {
+        left: -11px;
+    }
+
+    .carousel-control-next {
+        right: -11px;
+    }
+
+    .testimonial-img-active .active {
+        width: 27%;
     }
 }
