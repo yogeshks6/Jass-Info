@@ -4,14 +4,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.web-pad {
+    padding-top: 6%;
+    padding-bottom: 7%;
 }
 
 /* navbar section start */
@@ -54,15 +49,13 @@ nav {
 .hero-sec {
     background: url(./assets/design.png);
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 13%;
 }
 
 .hero-sec-second-line {
     color: rgba(36, 47, 101, 1);
 }
 
-.temp-btn {
+a.temp-btn {
     width: 218px;
     height: 62px;
     background-color: rgba(255, 81, 81, 1);
@@ -84,10 +77,6 @@ nav {
 /* hero section end */
 
 /* Trusted section start  */
-.trusted-sec {
-    margin-top: 8%;
-}
-
 
 
 .trusted-sec-right img {
@@ -98,9 +87,7 @@ nav {
 
 
 /* services section start */
-.services-sec {
-    margin-top: 7%;
-}
+
 
 .services-sec-header {
     font-size: 46px;
@@ -140,10 +127,7 @@ nav {
 /* experience section end */
 
 /* Work section start */
-.work-section {
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
+
 
 .carousel-indicators {
     bottom: -25px;
@@ -160,8 +144,7 @@ nav {
 /* portfolio section start */
 .portfolio-section {
     background-color: rgba(33, 127, 239, 0.07);
-    padding-top: 7%;
-    padding-bottom: 10%;
+
 }
 
 
@@ -207,10 +190,7 @@ nav {
 
 /* portfolio section end */
 /* Questions section start */
-.questions-section {
-    padding-top: 7%;
-    padding-bottom: 7%;
-}
+
 
 .questions-accordion {
     margin-top: 14%;
@@ -224,7 +204,6 @@ nav {
 /* contact section start */
 .contact-section {
     background-color: rgba(33, 127, 239, 0.07);
-    padding-top: 5%;
 }
 
 
@@ -267,16 +246,39 @@ nav {
 
 
 /* delivering section start */
-.delivering-sec {
+.news-letter {
     background: url(./assets/delivering-sec-img.svg);
     background-repeat: no-repeat;
+    padding: 210px 0px;
+    background-size: contain;
+}
+
+.news-letter a {
+    color: #fff;
+     padding-top: 14px;
+}
+
+.delivering-sec {
     width: 100%;
-    background-size: cover;
-    padding: 100px 0px;
+
 }
 
 /* delivering section end */
 
+
+/* footer section start */
+footer {
+    background-color: rgba(36, 47, 101, 1);
+
+}
+
+.footer-btn {
+    color: rgba(33, 127, 239, 1);
+    box-shadow: 0px 2px 10px #aaaaaa;
+
+}
+
+/* footer section end */
 
 
 
@@ -305,16 +307,42 @@ nav {
         margin: 0px auto;
 
     }
+
+    .news-letter {
+        padding: 100px 0px;
+    }
+
+    a.temp-btn {
+        width: 163px;
+        height: 46px;
+        font-size: 14px;
+    }
 }
 
 /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
-  */
+    */
 
 @media (min-width: 320px) and (max-width: 480px) {
     .temp-btn {
         margin: 0px auto;
 
+    }
+
+    .news-letter {
+        background: none;
+        ;
+        padding: 46px 0px;
+    }
+
+    .news-letter h1 {
+        font-size: 17px;
+    }
+
+    a.temp-btn {
+        width: 163px;
+        height: 46px;
+        font-size: 14px;
     }
 }
