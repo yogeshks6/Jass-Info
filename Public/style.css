@@ -364,6 +364,27 @@ footer {
 /* footer section end */
 
 
+/* courses section start */
+.line{
+    background: deepskyblue;
+    width: 5px;
+    height: 45px;
+    border-radius: 30px;
+    display: inline-block;
+    line-height: 22px;
+
+}
+.courses-section-first-h1{
+    font-size: 60px;
+}
+.courses-section{
+    padding-top: 10%;
+}
+.courses-section-first-p{
+    font-size: 20px;
+}
+/* courses section end */
+
 
 
 
@@ -490,6 +511,26 @@ footer {
 
     .testimonial-img-active .active {
         width: 27%;
+    }
+    .line{
+        background: deepskyblue;
+        width: 5px;
+        height: 45px;
+        border-radius: 30px;
+        display: inline-block;
+        line-height: 22px;
+    
+    }
+    .courses-section-first-h1{
+        font-size:29px;
+    }
+    .courses-section{
+        text-align: center;
+        padding-top: 23%;
+    }
+    .courses-section-first-p{
+        font-size: 9px;
+        padding-left: 10px;
     }
 }
 
