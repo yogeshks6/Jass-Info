@@ -383,6 +383,19 @@ footer {
 .courses-section-first-p{
     font-size: 20px;
 }
+.courses-section-two{
+padding-bottom: 10%;
+}
+.courses-section-two-head{
+    font-size: 35px;
+}
+ .courses-section-two-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.courses-section-two-card-p:hover{
+    color: rgb(220,53,69);
+    cursor: pointer;
+}
 /* courses section end */
 
 
